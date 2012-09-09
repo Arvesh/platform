@@ -36,6 +36,15 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+/*
+|--------------------------------------------------------------------------
+| DATE/TIME CONSTANTS
+|--------------------------------------------------------------------------
+|
+| These modes are used when working with date/time
+|
+*/
+define('TODAY', date('Y-m-d H:i:s'));
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
